@@ -1,7 +1,12 @@
 html,body{
     height: 100%;
     width: 100%;
+    font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
+/* Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@300;400;700&family=Roboto:wght@400;700&display=swap');
 /* Buttons */
 .button{
     padding: 20px ;
@@ -12,4 +17,10 @@ html,body{
 }
 .row{
     margin: 9px 0px;
+}
+.row input{
+    font-size: 21px;
+    padding: 9px 26px;
+    
+    border: 2px solid black;
 }
